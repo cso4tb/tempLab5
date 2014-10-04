@@ -17,5 +17,5 @@ class MainPage(webapp2.RequestHandler):
 
 
     application = webapp2.WSGIApplication([
-        ('/', MainPage),
+        ('http://plato.cs.virginia.edu/~cso4tb/ms5/', MainPage),
         ], debug=True)
