@@ -1,14 +1,9 @@
-application: metal-hologram-723
-
-version: 1
-
+application: seismic-sentry-723 
+version: 3
 runtime: python27
-
 api_version: 1
-
 threadsafe: true
 
-
 handlers:
-- url: /.*
-  script: user.application  
+- url: http://seismic-sentry-723.appspot.com/
+  script: user.application
