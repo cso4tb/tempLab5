@@ -5,5 +5,5 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: http://seismic-sentry-723.appspot.com/
+- url: ./*
   script: user.application
