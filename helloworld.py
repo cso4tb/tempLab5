@@ -23,5 +23,5 @@ class MainPage(webapp2.RequestHandler):
 
 
 application = webapp2.WSGIApplication([
-    ('http://seismic-sentry-723.appspot.com/', MainPage),
+    ('/', MainPage),
 ], debug=True)
